@@ -1,4 +1,4 @@
-import Form from "../components/UI/Form";
+import TodoForm from "../components/todos/TodoForm";
 
 const HomePage = () => {
   return (
@@ -6,7 +6,7 @@ const HomePage = () => {
       <h1 className="text-3xl text-center pt-20 text-blue-500">
         Todo List - Easy Way To Manage Your Project!
       </h1>
-      <Form />
+      <TodoForm />
     </div>
   );
 };

@@ -5,3 +5,12 @@
 html {
   background-color: rgb(255 251 235);
 }
+html,
+body {
+  height: 100%;
+}
+@layer components {
+  .container {
+    @apply max-w-[1080px];
+  }
+}
